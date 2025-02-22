@@ -1,0 +1,35 @@
+1. What is a Consensus Protocol?
+A consensus protocol is a set of rules that allows all participants (nodes) in a blockchain network to agree on the state of the ledger—basically, which transactions are valid and in what order they happened. Since blockchain is decentralized (no central authority), consensus ensures everyone has the same version of the truth without trusting a single party.
+
+
+A. Proof of Work (PoW) - 2009
+How It Works: Miners compete to solve hard math puzzles using computer power. The first to solve it adds a block of transactions to the blockchain and gets a reward (e.g., Bitcoin).
+Key Features:
+Secure: Hard to attack because it takes a lot of computing power.
+Slow: Takes about 10 minutes per block in Bitcoin.
+Energy-Heavy: Uses lots of electricity (like powering a small country).
+Example: Bitcoin, Litecoin
+
+B. Proof of Stake (PoS) - 2012
+How It Works: Instead of mining, validators are chosen to create blocks based on how much cryptocurrency they "stake" (lock up as collateral). More stake = higher chance to add a block.
+Key Features:
+Energy-Efficient: No puzzle-solving, so it uses less power.
+Faster: Blocks can be added more quickly.
+Risk: Richer participants might dominate (though mitigated by rules).
+Example: Ethereum (since 2022), Cardano, Tezos.
+
+C. Delegated Proof of Stake (DPoS) - 2014
+How It Works: Token holders vote for a small group of delegates to validate transactions. It’s like PoS but with elected representatives.
+Key Features:
+Very Fast: Fewer validators speed things up.
+Less Decentralized: Relies on trusted delegates.
+Example: EOS, Tron, Lisk.
+Timeline: Introduced by BitShares in 2014.
+
+D. Practical Byzantine Fault Tolerance (PBFT) - Late 1990s, Adapted 2010s
+How It Works: Nodes vote and communicate to agree on transactions. It tolerates some nodes being dishonest ("faulty") as long as most are honest.
+Key Features:
+Fast and Efficient: Good for private blockchains.
+Limited Scale: Works best with fewer nodes.
+Example: Hyperledger Fabric, Ripple (partially).
+

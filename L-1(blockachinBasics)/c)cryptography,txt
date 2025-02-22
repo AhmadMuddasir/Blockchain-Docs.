@@ -1,0 +1,65 @@
+WHAT IS cryptography
+
+Cryptography is the backbone of blockchain . It ensures data is safe, authentic, and tamper-proof. Here’s how it works in
+It protects data using special techniques like encryption, hashing, and digital signatures. chronological context:
+
+How Does Cryptography Work?
+
+#Encryption (Hiding Information)
+
+Imagine you write a secret message to your friend but use a special code (encryption) so no one else can read it.
+Only your friend has the key to decode (decrypt) the message.
+ Example:
+Normal Message: "HELLO"
+Encrypted Message: "XJQQT" (Shifted letters using a simple cipher)
+Only someone with the correct key can convert it back to "HELLO".
+
+#Decryption:
+
+The person who receives "XJ9KQ" uses the same key to unscramble it back into "Hello".
+
+
+#Hashing (Creating a Unique Fingerprint)
+
+Converts data into a fixed-length unique code (hash).
+Even a small change in the input creates a completely different hash.
+ Example:
+
+"password123" → ef92b778bafee...
+"Password123" → 5f4dcc3b5aa76... (Completely different!)
+Used for storing passwords securely.
+Digital Signatures (Proving Authenticity)
+
+Works like a seal or signature to confirm that data is original and hasn’t been changed.
+Used in documents, transactions, and blockchain.
+ Example:
+
+You sign a digital contract → The receiver verifies your signature → Ensures it’s really from you.
+Where is Cryptography Used?
+🔐 Messaging Apps → WhatsApp, Signal use encryption for private chats.
+💳 Online Payments → Banks secure transactions using cryptography.
+🪙 Blockchain & Bitcoin → Cryptography secures digital currencies.
+🛡️ Cybersecurity → Protects passwords, files, and networks.
+
+Types of Cryptography
+#Symmetric Cryptography:
+
+Uses the same key for both encryption and decryption.
+
+Example: You and your friend use the same secret code to lock and unlock a box.
+
+#Asymmetric Cryptography:
+
+Uses a pair of keys: a public key (shared with everyone) and a private key (kept secret).
+
+Example: You give your friend a lock (public key) to lock a box, but only you have the key (private key) to unlock it.
+
+#What is a Public Key?
+A public key is like a lock. It’s shared with everyone and used to encrypt (lock) data.
+
+Example: If someone wants to send you a secret message, they use your public key to lock it. Once locked, only your private key can unlock it.
+
+#What is a Private Key?
+A private key is like a key. It’s kept secret and used to decrypt (unlock) data.
+
+Example: When you receive a message locked with your public key, you use your private key to unlock and read it.
