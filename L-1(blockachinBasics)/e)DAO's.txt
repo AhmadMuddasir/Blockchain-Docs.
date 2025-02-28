@@ -1,0 +1,18 @@
+A DAO (Decentralized Autonomous Organization) is a community-driven
+organization that runs on blockchain without central authority.
+Instead of a CEO or board making decisions, DAOs use smart contracts
+and voting by members to operate
+___________________________________________________________________________________________
+How Does a DAO Work?
+Smart Contracts Automate Rules
+
+DAOs are powered by smart contracts (code running on a blockchain).
+These contracts define rules (e.g., "Majority vote approves spending").
+Token Holders Vote
+
+People who hold DAO tokens can vote on decisions (e.g., funding a project, changing rules).
+More tokens = More voting power (in most cases).
+No Central Authority
+
+No single person controls the DAO.
+Decisions happen transparently on the blockchain.

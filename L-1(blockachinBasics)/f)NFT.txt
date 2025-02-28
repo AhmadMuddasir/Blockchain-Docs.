@@ -1,0 +1,12 @@
+What is NFT 
+An NFT (Non-Fungible Token) is a unique digital asset stored on a
+blockchain that proves ownership of something like art
+, music, videos, or virtual items in games.
+
+How is an NFT Different from Cryptocurrency?
+Cryptocurrencies (Bitcoin, Ethereum, etc.) are fungible → 1 BTC = 1 BTC.
+NFTs are non-fungible → Each NFT is unique and cannot be exchanged 1:1 like money.
+Example:
+
+You can swap a $10 bill for another $10 bill (same value).
+But you CANNOT swap a rare digital painting NFT for a random NFT—they have different values.

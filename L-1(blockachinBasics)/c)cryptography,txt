@@ -2,7 +2,7 @@ WHAT IS cryptography
 
 Cryptography is the backbone of blockchain . It ensures data is safe, authentic, and tamper-proof. Here’s how it works in
 It protects data using special techniques like encryption, hashing, and digital signatures. chronological context:
-
+______________________________________________________________________________________
 How Does Cryptography Work?
 
 #Encryption (Hiding Information)
@@ -13,12 +13,12 @@ Only your friend has the key to decode (decrypt) the message.
 Normal Message: "HELLO"
 Encrypted Message: "XJQQT" (Shifted letters using a simple cipher)
 Only someone with the correct key can convert it back to "HELLO".
-
+______________________________________________________________________________________
 #Decryption:
 
 The person who receives "XJ9KQ" uses the same key to unscramble it back into "Hello".
 
-
+______________________________________________________________________________________
 #Hashing (Creating a Unique Fingerprint)
 
 Converts data into a fixed-length unique code (hash).
@@ -40,7 +40,7 @@ Where is Cryptography Used?
 💳 Online Payments → Banks secure transactions using cryptography.
 🪙 Blockchain & Bitcoin → Cryptography secures digital currencies.
 🛡️ Cybersecurity → Protects passwords, files, and networks.
-
+______________________________________________________________________________________
 Types of Cryptography
 #Symmetric Cryptography:
 
@@ -53,12 +53,12 @@ Example: You and your friend use the same secret code to lock and unlock a box.
 Uses a pair of keys: a public key (shared with everyone) and a private key (kept secret).
 
 Example: You give your friend a lock (public key) to lock a box, but only you have the key (private key) to unlock it.
-
+______________________________________________________________________________________
 #What is a Public Key?
 A public key is like a lock. It’s shared with everyone and used to encrypt (lock) data.
 
 Example: If someone wants to send you a secret message, they use your public key to lock it. Once locked, only your private key can unlock it.
-
+______________________________________________________________________________________
 #What is a Private Key?
 A private key is like a key. It’s kept secret and used to decrypt (unlock) data.
 
