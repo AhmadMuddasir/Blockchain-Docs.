@@ -1,0 +1,37 @@
+what is a block?
+a block is a list of transaction mined together in a blockchain.
+______________________________________________________________
+blockchin algorithm-
+
+Remember Ethereum uses keccak 256 algorithm.
+
+Ethereum and bitcoin uses Signature Algorithm-
+uses ECDSA (Elliptic Curve Digital Signature Algorithm)
+Ensures transaction authenticity and prevents forgery(means using any fake signature)
+
+Bitcoin uses sha256 algorithm
+sha 256 practical example-
+when u will click to below link it will show a block which contains 
+data and hash oncew the data is change hashes algo changes that's how 
+sha256 works
+https://andersbrownworth.com/blockchain/hash
+
+blocks practicalexample-
+you can see-
+    _______________________________________
+    |Block:1                               | 
+    |______________________________________|
+    |Nonce:22895(any random no. changes    |
+    | when u mine)                         |
+    |                                      | 
+    |Data:(write any thing)                |
+    |                                      |
+    |Hash:(generates hash code)            |
+    |______________________________________|
+
+    Now-
+click this link-https://andersbrownworth.com/blockchain/block
+
+GO to this link to see multiple different
+blocks ->https://andersbrownworth.com/blockchain/blockchain
+explanation video-https://www.youtube.com/watch?v=-1GB6m39-rM&t=5400s

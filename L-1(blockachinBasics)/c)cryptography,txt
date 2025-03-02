@@ -7,7 +7,7 @@ How Does Cryptography Work?
 
 #Encryption (Hiding Information)
 
-Imagine you write a secret message to your friend but use a special code (encryption) so no one else can read it.
+Imagine you write a secret message to  you friend but use a special code (encryption) so no one else can read it.
 Only your friend has the key to decode (decrypt) the message.
  Example:
 Normal Message: "HELLO"
