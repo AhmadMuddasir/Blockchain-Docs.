@@ -1,6 +1,7 @@
-this is a transaction:
-deatails in a particular block.
+
 [ This is a real blockchain transaction  ]
+
+How a single block look like
     ____________________________________________________________________
     |Transaction Hash:                                                 |                   
     |0xa5834a16725435ae355e446c76073cd0310652c91da5e85adb85afc1dc62f415| 

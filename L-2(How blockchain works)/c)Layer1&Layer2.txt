@@ -1,0 +1,57 @@
+Layer 1-
+This are the Base Layer blockchain implementation
+eg-bitcoin,Ethereum,avalance
+these are the base level blockchain solutions
+______________________________________________________________________
+Layer 2-
+Any Network or Application build top of a Layer 1
+eg-chainlink,Arbitrum, Polygon(this are built on top of etherium)
+it is also called-
+Off-Chain Scaling Solutions
+A Layer 2 is a secondary framework built on top of a Layer 1 blockchain to improve scalability and reduce transaction costs while maintaining security.
+______________________________________________________________________
+some Layer 2 blockchain details:
+
+Chainlink  → Built on Ethereum (Layer 1)
+
+A decentralized oracle network that provides external data (like prices, APIs, and real-world events) to smart contracts on Ethereum and other blockchains.
+Works with multiple blockchains, but Ethereum is its primary base.
+Arbitrum  → Built on Ethereum (Layer 2, Optimistic Rollup)
+
+A Layer 2 scaling solution that reduces transaction costs and increases speed using Optimistic Rollups.
+Settles transactions on Ethereum (Layer 1) for security.
+Polygon (MATIC)  → Built on Ethereum (Sidechain & Layer 2 solutions)
+
+Originally a sidechain but now supports multiple Layer 2 solutions .
+Enhances Ethereum’s scalability while maintaining security through periodic checkpoints.
+______________________________________________________________________
+
+Sharding and Rollups
+
+Thid are two different scalability solutions for blockchains like Ethereum. Here's a detailed breakdown of both:
+
+
+1. Sharding 🧩 (Layer 1 Scaling)
+What is Sharding?
+Sharding splits the blockchain into multiple smaller chains (shards) to process transactions in parallel, reducing congestion and increasing speed. Each shard has its own data, transactions, and smart contracts, and they communicate with the main chain.
+
+How It Works:
+Instead of every node processing all transactions, nodes are divided into groups, each handling a subset of transactions.
+Each shard processes transactions independently and periodically syncs with the main Ethereum chain.
+Validators only verify transactions within their assigned shard.
+___________________________________________________________________________________________________
+2. Rollups  (Layer 2 Scaling)
+What are Rollups?
+Rollups process transactions off-chain and submit a compressed version to Ethereum
+Layer 1, reducing gas fees and increasing transaction speed.
+
+Types of Rollups:
+Optimistic Rollups – Assume all transactions are valid but allow fraud challenges.
+
+Example: Arbitrum, Optimism.
+
+ZK-Rollups (Zero-Knowledge Rollups) – Use cryptographic proofs (ZK-SNARKs) to validate transactions instantly.
+
+Example: zkSync, StarkNet.
+Pros: Faster finality, lower gas fees, more secure.
+Cons: Harder to support smart contracts (zkEVMs improving this).
