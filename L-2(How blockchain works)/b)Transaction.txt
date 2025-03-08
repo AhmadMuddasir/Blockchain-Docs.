@@ -30,3 +30,10 @@ How a single block look like
     |__________________________________________________________________|               
     |Gas Price:6.550643848 Gwei (0.000000006550643848 ETH)             |               
     |__________________________________________________________________|
+
+what is transaction burn?
+when we do a transaction some amount of token is burned simply means it is 
+destroyed they are taken out of circulation.
+what is minting?
+when a token or nft is brought into existence is called minting.
+it mean they are created.

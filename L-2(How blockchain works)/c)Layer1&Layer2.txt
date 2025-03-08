@@ -51,7 +51,6 @@ Optimistic Rollups – Assume all transactions are valid but allow fraud challen
 Example: Arbitrum, Optimism.
 
 ZK-Rollups (Zero-Knowledge Rollups) – Use cryptographic proofs (ZK-SNARKs) to validate transactions instantly.
-
+Faster finality, lower gas fees, more secure.
 Example: zkSync, StarkNet.
-Pros: Faster finality, lower gas fees, more secure.
-Cons: Harder to support smart contracts (zkEVMs improving this).
+

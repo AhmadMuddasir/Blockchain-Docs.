@@ -12,7 +12,7 @@ Ensures transaction authenticity and prevents forgery(means using any fake signa
 Bitcoin uses sha256 algorithm
 sha 256 practical example-
 when u will click to below link it will show a block which contains 
-data and hash oncew the data is change hashes algo changes that's how 
+data and hash once  the data is change hashes also changes that's how 
 sha256 works
 https://andersbrownworth.com/blockchain/hash
 

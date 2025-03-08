@@ -1,0 +1,29 @@
+#What is Bridging in Blockchain? 🌉
+Bridging in blockchain refers to the process of transferring assets, tokens,
+or data between two different blockchain networks.
+
+How Does Bridging Work?
+Suppose you need ZKSync testnet tokens for testing, but getting them directly
+from the ZKSync faucet can be slow or unreliable due to errors or delays.
+ This is where bridging comes in.
+
+Instead of waiting, you can first get testnet ETH from 
+a more accessible faucet, such as:
+Google Cloud Faucet for Sepolia Testnet-
+https://cloud.google.com/application/web3/faucet/ethereum/sepolia
+
+Once you have ETH on the Sepolia testnet,
+you can use a bridge to transfer it to the ZKSync testnet.
+The bridge will move your funds between the two networks,
+allowing you to use them on ZKSync without needing to rely on the direct ZKSync faucet.
+
+Remember you should have sepolia in eth testnet.
+#How it is done?
+step 1:Go to https://portal.zksync.io/bridge/?network=sepolia
+step 2:In the top right corner select ZKsinc test network.
+step 3:connect wallet.
+step 4:then select amount you want to transfer from sepolia eth to zksync
+step 5:continue
+
+It will take approximately 15 minutes(for security purpose )
+and you will get you zksync token in your metamask wallet. 
