@@ -27,3 +27,5 @@ step 5:continue
 
 It will take approximately 15 minutes(for security purpose )
 and you will get you zksync token in your metamask wallet. 
+to verify you can simply go to this link-https://sepolia.explorer.zksync.io/
+and paste your zksync address to search bar and you will see all your Tnx.
