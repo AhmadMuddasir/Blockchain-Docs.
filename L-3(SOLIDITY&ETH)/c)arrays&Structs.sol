@@ -3,9 +3,10 @@ pragma solidity ^0.8.0;
 contract SimpleStorageEx1{
      uint256[] listOfFavouriteNumbers;
 
-     struct Person{ //struct that allows you to group multiple variables into a single unit.
+     struct Person{ //struct tha allows you to group multiple variables into a single unit.
      uint age;
      string name;
+     //address personAddress;
 
      }
      Person[] public listOfArray;//dynamic array because the size of the array can increase or decrease
