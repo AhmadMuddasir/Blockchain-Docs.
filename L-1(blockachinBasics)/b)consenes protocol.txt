@@ -5,7 +5,7 @@ which transactions are valid and in what order they happened.
 Since blockchain is decentralized (no central authority), consensus
 ensures everyone has the same version of the truth without trusting a single party.
 ________________________________________________________________________________
-imp:POW is just a part or a piece of bitcoin conses protocol its actually called as 
+imp:POW(proof of work) is just a part or a piece of bitcoin consenses protocol its actually called as 
 Nakamoto Consensus which include the combination of longest chain rules
 
 Nakamoto Consensus:which ever block has the longest chain or the 
@@ -14,7 +14,7 @@ most number of block on it is going to the chande that we use.
 Sybil resistance mechanisms-
 
 Sybil resistance mechanisms are strategies used to prevent a single entity from
- creating multiple fake identities (Sybil attacks) in decentralized networks
+creating multiple fake identities (Sybil attacks) in decentralized networks
 and POW SYBIL resistance mecahinsm.
 Two types of sybil resistance mecahinsm-
 POW & POS
@@ -38,7 +38,8 @@ Energy-Heavy: Uses lots of electricity (like powering a small country).
 Example: Bitcoin, Litecoin
 ______________________________________________________________________________________
 B. Proof of Stake (PoS) - 2012
-How It Works: Instead of mining, validators are chosen to create blocks based on how much cryptocurrency they "stake" (lock up as collateral). More stake = higher chance to add a block.
+How It Works: Instead of mining, validators are chosen to create blocks based on
+ how much cryptocurrency they "stake" (lock up as collateral). More stake = higher chance to add a block.
 Key Features:
 Energy-Efficient: No puzzle-solving, so it uses less power.
 Faster: Blocks can be added more quickly.

@@ -1,23 +1,33 @@
 Nearly Every thing you do in your life is the result of 
 Agreement contract promises
 
-3 things that simply desfines blockchain
+3 things that simply defines blockchain
 Immutable 
 decetralise
-Transperecy
+Transperency
 
 # Introduction to Blockchain
 Blockchain is a decentralized, immutable ledger that records transactions across 
 a network of computers.It eliminates the need for intermediaries by using cryptography.
 
 # How Blockchain Works (Key Concepts Established 2009)
-Blocks: Data (e.g., transactions) is stored in blocks. Each block has a header with a timestamp, a reference to the previous block (via its hash), and a cryptographic hash of its own data.
-Chain: Blocks are linked chronologically, forming an immutable chain. Changing one block requires altering all subsequent blocks, which is computationally impractical.
-Decentralization: Instead of a central server, the ledger is distributed across a network of nodes (computers). Every node keeps a copy, ensuring no single point of control.
-Consensus: Bitcoin used Proof of Work (PoW), where miners compete to solve mathematical puzzles to add blocks, securing the network and validating transactions.
+Blocks: Data (e.g., transactions) is stored in blocks. Each block has a header 
+with a timestamp, a reference to the previous block (via its hash), and a cryptographic
+hash of its own data.
+
+Chain: Blocks are linked chronologically, forming an immutable chain. Changing 
+one block requires altering all subsequent blocks, which is computationally impractical.
+
+
+Decentralization: Instead of a central server, the ledger is distributed across
+a network of nodes (computers). Every node keeps a copy, ensuring no single point of control.
+
+Consensus: Bitcoin used Proof of Work (PoW), where miners compete to solve     
+mathematical puzzles to add blocks, securing the network and validating transactions.
 
 The Second Generation: Ethereum (2015)
-Smart Contracts: In 2013, Vitalik Buterin proposed Ethereum, launched in July 2015. It introduced programmable blockchain via smart contracts—self-executing agreements coded onto the blockchain.
+Smart Contracts: In 2013, Vitalik Buterin proposed Ethereum, launched in July 2015.
+ It introduced programmable blockchain via smart contracts—self-executing agreements coded onto the blockchain.
 
 Modern Blockchain -
 Diverse Blockchains: Beyond Bitcoin and Ethereum, new types emerged:

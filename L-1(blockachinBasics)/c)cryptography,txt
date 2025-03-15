@@ -36,11 +36,11 @@ Used in documents, transactions, and blockchain.
 
 You sign a digital contract → The receiver verifies your signature → Ensures it’s really from you.
 Where is Cryptography Used?
-🔐 Messaging Apps → WhatsApp, Signal use encryption for private chats.
-💳 Online Payments → Banks secure transactions using cryptography.
-🪙 Blockchain & Bitcoin → Cryptography secures digital currencies.
-🛡️ Cybersecurity → Protects passwords, files, and networks.
-______________________________________________________________________________________
+ Messaging Apps → WhatsApp, Signal use encryption for private chats.
+ Online Payments → Banks secure transactions using cryptography.
+ Blockchain & Bitcoin → Cryptography secures digital currencies.
+ Cybersecurity → Protects passwords, files, and networks.
+____________________________________________________________________________________
 Types of Cryptography
 #Symmetric Cryptography:
 
