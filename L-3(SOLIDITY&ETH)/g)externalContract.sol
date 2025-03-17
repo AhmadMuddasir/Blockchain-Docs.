@@ -7,12 +7,32 @@ import {ThirdcONTRCT,FirstContract} from "./f}twoContractInoneFile.sol";//we can
 //it is more prefered
 
 contract secondContract{
-     FirstContract public firstContract;//returns address of FirstContract
+     FirstContract[] public firstContractList;//returns address of FirstContract
 
 
      function createContract() public{
-          firstContract = new FirstContract();//deploys the contract and stores the address in the
+          FirstContract newContract= new FirstContract();//deploys the contract and stores the address in the
           //firstcontract variable
+          firstContractList.push(newContract);
+
+     }
+
+
+     function sfStore(uint _simpleStorageIndex,uint _newSimpleStorageNmbr) public{
+          //we need Address and ABI-Application binary interface.
+     //when compile a contrace we automatically get the Abi.
+
+     // FirstContract storeValue = firstContractList[_simpleStorageIndex];
+     // storeValue.store(_newSimpleStorageNmbr);
+     // above two lines can also be written as->
+     firstContractList[_simpleStorageIndex].store(_newSimpleStorageNmbr);
+     }
+
+     function getSF(uint _index) public view returns(uint){
+          // FirstContract getNumber = firstContractList[_index];
+          // return getNumber.retrieve();  
+          // this can also be written as->
+          return firstContractList[_index].retrieve();
      }
 
 }

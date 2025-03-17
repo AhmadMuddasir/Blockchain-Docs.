@@ -4,7 +4,7 @@ pragma solidity ^0.8.18;
 // It allows you to store and retrieve values efficiently using unique keys.
 
 
-contract SimpleMapping {
+contract SimpleMapping1 {
     // Mapping from address to balance (uint)
     mapping(address => uint) public balances;
 
@@ -16,5 +16,33 @@ contract SimpleMapping {
     // Function to get balance
     function getBalance() public view returns (uint) {
         return balances[msg.sender];
+    }
+}
+
+
+//2nd Exp
+contract SimpleMapping2 {
+    // Mapping from address to balance (uint)
+
+    struct People{
+        string name;
+        uint age;
+    }
+    People[] public peoples;// an array to store peaople
+
+    mapping(string => uint) public NametoAge;
+
+    // Function to set balance
+    function setPeople(string memory _name,uint _age) public {
+        // People memory people = People(_name,_age);
+        // peoples.push(people);
+
+        peoples.push(People(_name,_age));
+        NametoAge[_name] = _age;
+    }
+
+    // Function to get balance
+    function getBalance(string memory _name) public view returns (uint) {
+        return NametoAge[_name];
     }
 }

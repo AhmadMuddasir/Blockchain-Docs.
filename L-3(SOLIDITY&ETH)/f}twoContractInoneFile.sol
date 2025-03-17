@@ -15,8 +15,8 @@ contract FirstContract {
     Person[] public listOfPeople;
 
     mapping(string => uint256) public nameToFavoriteNumber;
-
-    function store(uint256 _favoriteNumber) public {
+    //virtual is used for reusing the same function in another contract(override)
+    function store(uint256 _favoriteNumber) public virtual {
         myFavoriteNumber = _favoriteNumber;
     }
 
