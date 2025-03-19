@@ -128,12 +128,12 @@ contract Example7 {
 // c) Receive Function
 // Special function to receive Ether without data.
 // Used when a contract is sent Ether directly.
-// Example:
-// solidity
+// when you send a transaction to this contract,the contract will execute receive  function
 
 contract Example8 {
+    uint rcv;
     receive() external payable {
-        // This executes when ETH is sent directly
+        rcv = 1;// This executes when ETH is sent directly
     }
 }
 

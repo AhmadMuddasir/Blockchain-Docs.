@@ -16,13 +16,13 @@ contract FundMe {
 
     function fund() public payable onlyOwner{
         
-        require(msg.sender == owner,"only the owner can fund" );
-        // Check if the sent value meets the minimum USD requirement
-        require(msg.value.getConversionRate() >= minimumUSD, "Didn't send enough funds (1 ETH = 1e18 wei)");
+    require(msg.sender == owner,"only the owner can fund" );
+    // Check if the sent value meets the minimum USD requirement
+    require(msg.value.getConversionRate() >= minimumUSD, "Didn't send enough funds (1 ETH = 1e18 wei)");
 
-        // Update the funder's contribution
-        addressToAmountFunded[msg.sender] += msg.value;
-        funders.push(msg.sender);
+    // Update the funder's contribution
+    addressToAmountFunded[msg.sender] += msg.value;
+    funders.push(msg.sender);
     }
 
     function withdraw() public onlyOwner{

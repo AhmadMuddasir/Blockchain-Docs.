@@ -3,6 +3,7 @@ pragma solidity ^0.8.0;
 
 import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
 
+//library should be either internal or public.
 library PriceConverter {
     function getPrice() internal view returns (uint) {
         AggregatorV3Interface priceFeed = AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306);
