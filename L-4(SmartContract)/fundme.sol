@@ -5,8 +5,8 @@ contract FundMe {
     using PriceConverter for uint256; // Attach library functions to uint256 type
 
     uint public minimumUSD = 5e18; // Minimum funding amount in USD (5 USD)
-    address[] public funders;
-    mapping(address => uint) public addressToAmountFunded;
+    address[] public s_funders;
+    mapping(address => uint) public s_addressToAmountFunded;
 
     address public owner;
 
@@ -21,18 +21,18 @@ contract FundMe {
     require(msg.value.getConversionRate() >= minimumUSD, "Didn't send enough funds (1 ETH = 1e18 wei)");
 
     // Update the funder's contribution
-    addressToAmountFunded[msg.sender] += msg.value;
-    funders.push(msg.sender);
+    s_addressToAmountFunded[msg.sender] += msg.value;
+    s_funders.push(msg.sender);
     }
 
     function withdraw() public onlyOwner{
-        for(uint funderIndex = 0;funderIndex < funders.length;funderIndex++){
-            address funder = funders[funderIndex];
-            addressToAmountFunded[funder] = 0;
+        for(uint funderIndex = 0;funderIndex < s_funders.length;funderIndex++){
+            address funder = s_funders[funderIndex];
+            s_addressToAmountFunded[funder] = 0;
 
         }
         //resetting an array
-        funders = new address[](0);
+        s_funders = new address[](0);
         // 3 different ways to transfer money-
         //transfer (most used and simple)but-
         //the tranfer method maximum gas value capped is 2300 if it increases then throws error.

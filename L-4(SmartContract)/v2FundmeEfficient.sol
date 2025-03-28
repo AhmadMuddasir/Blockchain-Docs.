@@ -6,7 +6,7 @@ error NotOwner(); //
 
 contract FundMe {
     using PriceConverter for uint256; // Attach library functions to uint256 type
-
+    //constant variable do not take space in  storage but global variable its just like a pointer
     uint public constant MINIMUM_USD = 5e18; // Minimum funding amount in USD (5 USD)
     //21415-con
     //23515-not con
