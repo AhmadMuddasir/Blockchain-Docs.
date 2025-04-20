@@ -1,0 +1,68 @@
+What is IPFS?
+IPFS (InterPlanetary File System) is a peer-to-peer protocol for storing and sharing data in a distributed file system. It's often called the "permanent web" because content is addressed by what it is (content-based addressing) rather than where it's located (location-based addressing like HTTP).
+
+How IPFS Works - Key Concepts
+
+Representing and addressing data
+Routing data
+Transferring data
+
+
+Content Identifier (CID)
+In IPFS, data is chunked into blocks, which are assigned a unique identifier called a Content Identifier (CID). In general, the CID is computed by combining the hash of the data with its codec. The codec is generated using Multiformats.
+
+Example CID: QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco
+
+Same content = same CID, even if uploaded by different people
+
+2. Peer-to-Peer Network
+Files are stored across multiple nodes (computers) in the network
+
+No single point of failure (unlike traditional servers)
+
+3. Distributed Storage
+When you add a file to IPFS, it's:
+
+Split into smaller chunks
+
+Each chunk gets a CID
+
+Stored across multiple nodes
+
+4. File Retrieval Process
+You request a file using its CID
+
+IPFS checks which nodes have the content
+
+Retrieves the file chunks from the closest available nodes
+
+Reassembles the file for you
+
+IPFS vs HTTP
+Feature	HTTP	IPFS
+Addressing	Location-based	Content-based
+Availability	Single server	Multiple nodes
+Speed	Depends on server	Faster (local cache)
+Persistence	Temporary	Permanent*
+*Persistence depends on "pinning" - someone must choose to keep storing the data
+
+Common Uses of IPFS
+Storing NFT metadata and media
+
+Hosting decentralized websites
+
+Distributing large datasets
+
+Blockchain data storage
+
+Censorship-resistant content
+
+How to Access IPFS Content
+Via public gateways: https://ipfs.io/ipfs/CID
+
+Running your own IPFS node
+
+Through browsers with IPFS support (like Brave)
+
+IPFS creates a more resilient, permanent web where files aren't dependent on single servers staying online.
+

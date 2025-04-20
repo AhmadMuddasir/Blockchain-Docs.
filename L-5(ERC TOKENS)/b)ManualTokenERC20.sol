@@ -1,6 +1,15 @@
-
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.19;
+
+// Standard Functions:
+// transfer() - Send tokens to another address
+// transferFrom() - Allow delegated transfers
+// approve() - Set spending allowances
+// balanceOf() - Check balances
+// Additional Features:
+// burn() - Permanently remove tokens
+// burnFrom() - Allow burning others' tokens (with approval)
+// approveAndCall() - Advanced approval with callback
 
 interface tokenRecipient {
     function receiveApproval(
@@ -73,14 +82,8 @@ contract ManualToken {
         assert(balanceOf[_from] + balanceOf[_to] == previousBalances);
     }
 
-    /**
-     * Transfer tokens
-     *
-     * Send `_value` tokens to `_to` from your account
-     *
-     * @param _to The address of the recipient
-     * @param _value the amount to send
-     */
+
+
     function transfer(
         address _to,
         uint256 _value
