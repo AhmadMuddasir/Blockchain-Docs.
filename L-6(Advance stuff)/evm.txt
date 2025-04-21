@@ -1,0 +1,7 @@
+the EVM or ethereum virtual machine is a computation engine 
+that handles smart contract deplotments and executation 
+
+                                   ------->contract.abi
+contract.sol---->solc compiler-----|
+                                   ------->contract.bin (binary numbers) 
+

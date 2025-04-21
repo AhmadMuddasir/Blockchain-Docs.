@@ -4,24 +4,50 @@ pragma solidity ^0.8.19;
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 
 contract MyNFT is ERC721URIStorage {
-    uint256 private _tokenIdCounter;
+    uint256 private _tokenIds;
 
     constructor() ERC721("Dogie", "DOG") {
-        _tokenIdCounter = 0; // Initialize counter (optional, as uint256 defaults to 0)
+        _tokenIds = 0; // Initialize counter (optional, as uint256 defaults to 0)
     }
 
     function mintNFT(string memory tokenURI) public returns (uint256) {
-        uint256 newItemId = _tokenIdCounter;
+        uint256 newItemId = _tokenIds;
         _mint(msg.sender, newItemId);
         _setTokenURI(newItemId, tokenURI);
-        _tokenIdCounter++; // Increment after minting
+        _tokenIds++; // Increment after minting
         return newItemId;
     }
 
     function getTokenCounter() public view returns (uint256) {
-        return _tokenIdCounter;
+        return _tokenIds;
     }
 }
+// or simple-
+
+
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
+
+
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+
+contract myToken is ERC721URIStorage {
+     uint256 private _tokenIds;
+     constructor() ERC721("Elon Musk", "EMS") {}
+
+     function mintNFT() public returns (uint256) {
+          _tokenIds++;
+          uint256 newItemId = _tokenIds;
+          _mint(msg.sender, newItemId);
+          _setTokenURI(newItemId, "https://emerald-slippery-grouse-149.mypinata.cloud/ipfs/bafkreifbezbyuocy477vi4d7lnrog7or6nn5db7oqn4upxqaja5gr5l5ra");
+
+        return newItemId;
+
+     }
+
+}
+//0x2099383028CBf25e0FD7870dD637782D28C72C31
+
 
 nft testing
 
